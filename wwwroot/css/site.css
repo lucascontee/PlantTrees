@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.text-center{
+    margin: auto;
+    width: 40vw;
+    align-items: center;
+}
+
+.text-center h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #2B412B;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.text-center .green-btn{
+    margin-top: 20px;
+}
+
+.spanText {
+    font-weight: bold;
+    color: #2B412B;
+
+}
+
+.green-btn {
+    color: white;
+    background-color: #366B36;
+    border: none;
+}
+
+.green-btn:hover {
+    color: white;
+    background-color: #235923;
+}
+
+.formSession{
+    margin-bottom: 15px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
